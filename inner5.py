@@ -1,7 +1,8 @@
 #function inside function and return value of inner function
-"""
+
+"""          
 inside outer
-inside inner
+inside inner     
 """
 
 def outer(): # 100

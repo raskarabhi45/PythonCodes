@@ -1,6 +1,5 @@
 #something gets wrong
 #multithreading
-# ethe 3 process run zalya ek ya application chi and 2 ya 2 method sathi
 #in case of multithreading and multiprocessing we cant get return value from another  function bt there is solution create global variable
 #direct function and call back function
 #Check it 
@@ -21,7 +20,7 @@ def displayOdd(no):
 
 def main():
     print("Demonstartion of Parallel programming using multiple threads")
-    number=200
+    number=2000
 
     p1=threading.Thread(target=displayEven,args=(number,))
     p2=threading.Thread(target=displayOdd,args=(number,))

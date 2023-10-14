@@ -29,7 +29,7 @@ def mapX(arr,function_name):  #cut keleli bhaji
 
 def reduceX(arr):
     sum=0
-    for no in arr:
+    for no in arr:  #like for each loop
         sum=sum+no
 
     return sum

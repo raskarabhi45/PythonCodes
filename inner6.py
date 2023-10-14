@@ -1,7 +1,8 @@
+##############################################revisee
 # main file for the decorater in python
 # design pattern in python
 # this function is written by the other developer and we are not allowed to change in this function
-# need to  study this more and more clearly for good clarification of the 
+# need to  study this more and more clearly for good clarification of the concept
 
 def subtraction(no1,no2):
     ans=0

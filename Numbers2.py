@@ -40,7 +40,7 @@ class Numbers:
     def Min(self):
         min=self.arr[0]
         for i in range(0,self.size):
-            if(self.arr[i]>min):
+            if(self.arr[i]<min):
                 min=self.arr[i]
 
         return min
@@ -48,7 +48,7 @@ class Numbers:
     def Max(self):
         max=self.arr[0]
         for i in range(0,self.size):
-            if(self.arr[i]<max):
+            if(self.arr[i]>max):
                 max=self.arr[i]
 
         return max

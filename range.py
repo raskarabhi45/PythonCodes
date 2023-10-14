@@ -2,7 +2,7 @@
 # range(start,end,dispacement)
 #start is by default --
 #end aaa; there is no default value
-#displacement is ny default 1
+#displacement is by default 1
 
 #very important function range
 range(1,5) # 1 2 3 4 

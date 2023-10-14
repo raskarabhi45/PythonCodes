@@ -1,10 +1,9 @@
 
 from re import A
 
-
 class Arithmetic:
     #Constructor 
-    def __init__(self,A,B):#like this keyword from cpp and java same as selff keyward in python
+    def __init__(self,A,B):#like this keyword from cpp and java same as self keyward in python
         print("Inside init method")
         self.no1=A
         self.no2=B

@@ -1,4 +1,4 @@
-#multiprocessing
+# multiprocessing
 # ethe 3 process run zalya ek ya application chi and 2 ya 2 method sathi
 import multiprocessing
 import time

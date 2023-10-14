@@ -1,6 +1,7 @@
-#Serial Programming
+# Serial Programming
 # eka burner vrti eka eka number cha sqaure ek zala ki dusra as
 # eka core vrtich sgl zal load sgla tychya vrtich aaala 
+
 def Square(no):
     return (no*no)
 
@@ -11,7 +12,7 @@ def main():
     for value in data:
         result.append(Square(value))
 
-    print("Result after operation is : ",result)
+    print("Result after operation is : ",result)   #abhishek
     
 
 

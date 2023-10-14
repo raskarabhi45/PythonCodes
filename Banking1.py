@@ -1,8 +1,10 @@
 #Banking Application in OOP
 #instance variable : Name,Amount,Address,AccountNo
 #Instance method : CreateAccount() ,DisplayAccountInfo()
+
 #class variable : Bank_Name,ROI_On_FD
 #class method : DisplayBankInformation()
+
 #Static method : DisplayKYCInfo()
 
 class Bank_Account:
@@ -30,7 +32,7 @@ class Bank_Account:
         self.AccountNo=int(input())
 
 
-    def DisplayAccountInfo(self):
+    def DisplayAccountInfo(self):  #self
         print("------------------------------------------------------------------")
         print("--------Your Account Information is as below --------")
         print("------------------------------------------------------------------")   
@@ -39,13 +41,13 @@ class Bank_Account:
         print("Address of Account Holder : ",self.Address)
         print("Current Amount in Account : ",self.Amount)
 
-    @classmethod      #decorator
-    def DisplayBankInformation(cls):
+    @classmethod      #decorator   @classmethod and  @staticmethod  
+    def DisplayBankInformation(cls):  #cls
         print("Welcome to Banking Console ")
         print("Name of our bank is : ",cls.Bank_Name)
         print("Rate of interest we offer on fixed deposite is : ",cls.ROI_On_FD)
 
-    @staticmethod
+    @staticmethod   #@staticmethod
     def DisplayKYCInfo():
         print("Please consider below KYC Information")
         print("According to the rules of government of India you have to submit below documents")
@@ -72,7 +74,7 @@ def main():
     Bank_Account.DisplayKYCInfo()
 
     print("------------------------------------------------------------------")
-    print("---------Accessing instance variables from main---------------")
+    print("---------Accessing class variables from main---------------")
     print("------------------------------------------------------------------")
     print("Name of Bank : ",Bank_Account.Bank_Name)
     print("Rate of interest on fixed deposit : ",Bank_Account.ROI_On_FD)

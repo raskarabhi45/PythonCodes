@@ -12,6 +12,7 @@ def Add(*values):
 
     return sum
 
+
 def AddX(*values):
     print(type(values))  #tuple
     print("Number of arguments are : ",len(values))

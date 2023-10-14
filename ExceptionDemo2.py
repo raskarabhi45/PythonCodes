@@ -1,8 +1,8 @@
 # learn about the platform analyser in python 
-##exception  handling in python
+## exception  handling in python
 
 def main():
-    try:
+    try:  
         print("Enter first number")
         No1 = int(input())
         
